@@ -1,9 +1,0 @@
-pandas==2.1.0
-matplotlib
-seaborn
-
-pylint
-pytest
-click
-black
-pytest-cov

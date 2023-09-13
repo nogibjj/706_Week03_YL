@@ -1,11 +1,11 @@
-# 706_Week02_YL
+# 706_Week03_YL
 
-This repository includes the main tasks for week 2-Pandas Descriptive Statistics:
+This repository includes the main tasks for week 3-Polar Descriptive Statistics:
 
 * A Makefile
 * A Dockerfile
 * GitHub actions
-* Scripts and visualizations calculating the descriptive statistics of the chosen dataset `wine.csv`
+* Scripts and visualizations calculating the descriptive statistics using Polar for the chosen dataset `wine.csv`
 
 ## Project description
 
@@ -26,11 +26,8 @@ The project adapts from the project template from Week 01, and add Pandas script
 
 2. make lint
 
-![Alt text](image-2.png)
-
 3. make test
 
-![Alt text](image-3.png)
 
 ## Summary statistics
 
