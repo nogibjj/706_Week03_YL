@@ -1,3 +1,5 @@
+[![CI](https://github.com/nogibjj/706_Week03_YL/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/706_Week03_YL/actions/workflows/cicd.yml)
+
 # 706_Week03_YL
 
 This repository includes the main tasks for week 3-Polar Descriptive Statistics:
