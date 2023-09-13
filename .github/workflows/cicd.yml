@@ -19,5 +19,3 @@ jobs:
       run: make test
     - name: Format code with Python black
       run: make format
-    - name: Deploy
-      run: make deploy
