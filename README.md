@@ -7,15 +7,15 @@ This repository includes the main tasks for week 3-Polar Descriptive Statistics:
 * A Makefile
 * A Dockerfile
 * GitHub actions
-* Scripts and visualizations calculating the descriptive statistics using Polar for the chosen dataset `wine.csv`
+* Scripts and visualizations calculating the descriptive statistics using `Polars` for the chosen dataset `nba-teams-2017.csv`
 
 ## Project description
 
-The project adapts from the project template from Week 01, and add Pandas scripts to output the summary statistics and visualizations of certain features within a given dataset. I used the `wine.csv` dataset, a dataset describing the quality of red Bordeaux wine from 1952 to 1980.
+The project adapts from the project template from Week 01, and add Pandas scripts to output the summary statistics and visualizations of certain features within a given dataset. I used the `nba-teams-2017.csv` dataset, a dataset describing the wins/losses/cumulative points/games statistics for all the NBA teams.
 
-* I calculated the summary statistics (mean/median/standard deviation) of the column `Price`, the log price of red wine.
+* I calculated the summary statistics (mean/median/standard deviation/IQR) of the column `Price`, the log price of red wine. -->
 
-* I created two visualizations: a histogram of log wine price; a pairplot of all the quantitative variables in the dataset.
+* I created two visualizations: a histogram of points gain by each team; a scatterplot of points versus number of games won.
 
 ## Project environment
 

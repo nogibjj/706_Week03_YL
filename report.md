@@ -22,10 +22,10 @@ The dataset includes variables for describing the quality of Red Bordeaux wines 
 
 ## Visualizations
 
-1. Histogram for log wine price
+1. Histogram for points for all teams
 
-![Alt text](output.png)
+![Alt text](figures/points.png)
 
-2. Pairplot for all variables
+2. Scatterplot for points vs number of wins
 
-![Alt text](output-1.png)
+![Alt text](figures/scatter.png)
