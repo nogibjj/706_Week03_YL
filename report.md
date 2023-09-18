@@ -17,7 +17,6 @@ The dataset includes variables for the wins/losses/cumulative points/games stati
 
 ![Alt text](figures/summary.png)
 
-3. Descriptive statistics of log price of wine in the dataset
 
 ## Visualizations
 
