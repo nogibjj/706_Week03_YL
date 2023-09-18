@@ -13,7 +13,7 @@ def gen_stats():
 
 
 def build_histogram():
-    plt.hist(nba["points"], bins=5, edgecolor="k")
+    plt.hist(nba["points"], bins=35, edgecolor="k")
     plt.xlabel("Points")
     plt.ylabel("Frequency")
     plt.title("Frequency distribution of Points across Teams")

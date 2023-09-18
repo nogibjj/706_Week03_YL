@@ -36,4 +36,16 @@ The project adapts from the project template from Week 01, and replace the `Pand
 
 ## Summary statistics
 
-See `report.md` for details.
+See `report.md` for details. In particular,
+
+1. Summary statistics for all quantitative features
+
+![Alt text](figures/summary.png)
+
+2. Histogram for cummulative points won during the season
+
+![Alt text](figures/points-hist.png)
+
+3. Scatterplot for cumulative points versus number of games won during the season
+
+![Alt text](figures/scatter.png)

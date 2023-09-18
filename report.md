@@ -4,7 +4,7 @@
 
 The dataset includes variables for the wins/losses/cumulative points/games statistics for all the NBA teams during regular season 2016-17. Since there are many columns in the dataset, I only describe the ones that are relevant to the visualizations, or worth discovering for creating other visualizations.
 
-* Team: name of the NBA team (in `str` format).
+* Team: name of the NBA team (in `str` format, dropped during calculating summary statistics).
 * Wins: number of wins for each team.
 * Losses: number of losses for each team.
 * Win_prop: percentages of games winning.
@@ -22,7 +22,7 @@ The dataset includes variables for the wins/losses/cumulative points/games stati
 
 1. Histogram for points for all teams
 
-![Alt text](figures/points.png)
+![Alt text](figures/points-hist.png)
 
 2. Scatterplot for points vs number of wins
 
