@@ -2,10 +2,14 @@ import polars as pl
 import matplotlib.pyplot as plt
 
 nba = pl.read_csv("nba-teams-2017.csv")
+nba = nba.drop(columns=["team"])
+print(nba.describe())
 
 def gen_stats():
     data = pl.read_csv("nba-teams-2017.csv")
+    data = data.drop["team"]
     return data.describe()
+
 
 def build_histogram():
     plt.hist(nba["points"], bins=5, edgecolor="k")
@@ -14,6 +18,7 @@ def build_histogram():
     plt.title("Frequency distribution of Points across Teams")
     plt.show()
     return
+
 
 def build_scatterplot():
     plt.scatter(nba["wins"], nba["points"], alpha=0.5, s=60)

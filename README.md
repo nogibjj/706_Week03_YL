@@ -13,7 +13,7 @@ This repository includes the main tasks for week 3-Polar Descriptive Statistics:
 
 The project adapts from the project template from Week 01, and add Pandas scripts to output the summary statistics and visualizations of certain features within a given dataset. I used the `nba-teams-2017.csv` dataset, a dataset describing the wins/losses/cumulative points/games statistics for all the NBA teams.
 
-* I calculated the summary statistics (mean/median/standard deviation/IQR) of the column `Price`, the log price of red wine. -->
+* I calculated the summary statistics (mean/median/standard deviation/IQR) of the quantitative columns.
 
 * I created two visualizations: a histogram of points gain by each team; a scatterplot of points versus number of games won.
 
@@ -28,8 +28,11 @@ The project adapts from the project template from Week 01, and add Pandas script
 
 2. make lint
 
+![Alt text](figures/lint.png)
+
 3. make test
 
+![Alt text](figures/test.png)
 
 ## Summary statistics
 
