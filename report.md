@@ -2,15 +2,16 @@
 
 1. Description of the dataset
 
-The dataset includes variables for describing the quality of Red Bordeaux wines across 29 years. 
+The dataset includes variables for the wins/losses/cumulative points/games statistics for all the NBA teams during regular season 2016-17. Since there are many columns in the dataset, I only describe the ones that are relevant to the visualizations, or worth discovering for creating other visualizations.
 
-* Year: year in which grapes were harvested to make wine.
-* Price: logarithm of the average market price for Bordeaux vintages according to 1990–1991 auctions. The price is relative to the price of the 1961 vintage, regarded as the best one ever recorded.
-* WinterRain: winter rainfall (in mm).
-* AGST: Average Growing Season Temperature (in Celsius degrees).
-* HarvestRain: harvest rainfall (in mm).
-* Age: age of the wine measured as the number of years stored in a cask.
-* FrancePop: population of France at Year (in thousands).
+* Team: name of the NBA team (in `str` format).
+* Wins: number of wins for each team.
+* Losses: number of losses for each team.
+* Win_prop: percentages of games winning.
+* Points: cumulative points yielded.
+* Field_goals: number of field goals committed.
+* Points3: number of 3 point field goals committed.
+* Free_throws: number of free throw field goals committed.
 
 2. Summary of the quantitative variables in the dataset
 

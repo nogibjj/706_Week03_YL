@@ -11,7 +11,7 @@ This repository includes the main tasks for week 3-Polar Descriptive Statistics:
 
 ## Project description
 
-The project adapts from the project template from Week 01, and add Pandas scripts to output the summary statistics and visualizations of certain features within a given dataset. I used the `nba-teams-2017.csv` dataset, a dataset describing the wins/losses/cumulative points/games statistics for all the NBA teams.
+The project adapts from the project template from Week 01, and add Pandas scripts to output the summary statistics and visualizations of certain features within a given dataset. I used the `nba-teams-2017.csv` dataset, a dataset describing the wins/losses/cumulative points/games statistics for all the NBA teams during regular season 2016-17.
 
 * I calculated the summary statistics (mean/median/standard deviation/IQR) of the quantitative columns.
 
