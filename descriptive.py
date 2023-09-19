@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
     ## Descriptive statistics
 
-    {summary.to_pandas().to_markdown()}
+    {summary}
 
     ## Here are some plots to visualize relations between the important variables described in README.
 
