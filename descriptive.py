@@ -30,7 +30,9 @@ if __name__ == "__main__":
 
     string = f'''# This is the generated report for summary statistics and visualization for [nba-teams-2017.csv](https://github.com/nogibjj/706_Week03_YL/blob/main/nba-teams-2017.csv).
     ## Descriptive statistics 
+
     {summary.to_pandas().to_markdown()} 
+    
     ## Here are some plots to visualize relations between the important variables described in README. 
     ### Histogram for Cumulative Points for all the teams during the season 
      ![Alt text](figures/points-hist.png) 
