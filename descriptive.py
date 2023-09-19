@@ -25,6 +25,8 @@ if __name__ == "__main__":
     plt.scatter(nba["wins"], nba["points"], alpha=0.5, s=60)
     plt.xlabel("Wins")
     plt.ylabel("Points")
+    plt.xlim(15, 70)
+    plt.ylim(90, 120)
     plt.show()
     plt.savefig("figures/scatter.png")
 
@@ -32,7 +34,7 @@ if __name__ == "__main__":
     ## Descriptive statistics 
 
     {summary.to_pandas().to_markdown()} 
-    
+
     ## Here are some plots to visualize relations between the important variables described in README. 
     ### Histogram for Cumulative Points for all the teams during the season 
      ![Alt text](figures/points-hist.png) 
