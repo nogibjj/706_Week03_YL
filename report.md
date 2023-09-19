@@ -1,7 +1,7 @@
 # This is the generated report for summary statistics and visualization for [nba-teams-2017.csv](https://github.com/nogibjj/706_Week03_YL/blob/main/nba-teams-2017.csv).
-    ## Descriptive statistics 
+## Descriptive statistics 
 
-    |    | describe   |   games_played |   wins |   losses |   win_prop |   minutes |   points |   field_goals |   field_goals_attempted |   field_goals_prop |   points3 |   points3_attempted |   points3_prop |   free_throws |   free_throws_att |   free_throws_prop |   off_rebounds |   def_rebounds |   rebounds |   assists |   turnovers |    steals |   blocks |   block_fga |   personal_fouls |   personal_fouls_drawn |   plus_minus |
+|    | describe   |   games_played |   wins |   losses |   win_prop |   minutes |   points |   field_goals |   field_goals_attempted |   field_goals_prop |   points3 |   points3_attempted |   points3_prop |   free_throws |   free_throws_att |   free_throws_prop |   off_rebounds |   def_rebounds |   rebounds |   assists |   turnovers |    steals |   blocks |   block_fga |   personal_fouls |   personal_fouls_drawn |   plus_minus |
 |---:|:-----------|---------------:|-------:|---------:|-----------:|----------:|---------:|--------------:|------------------------:|-------------------:|----------:|--------------------:|---------------:|--------------:|------------------:|-------------------:|---------------:|---------------:|-----------:|----------:|------------:|----------:|---------:|------------:|-----------------:|-----------------------:|-------------:|
 |  0 | count      |             30 | 30     |   30     |  30        | 30        |  30      |      30       |                30       |           30       |  30       |            30       |       30       |      30       |          30       |           30       |        30      |       30       |   30       |  30       |    30       | 30        | 30       |   30        |         30       |               30       | 30           |
 |  1 | null_count |              0 |  0     |    0     |   0        |  0        |   0      |       0       |                 0       |            0       |   0       |             0       |        0       |       0       |           0       |            0       |         0      |        0       |    0       |   0       |     0       |  0        |  0       |    0        |          0       |                0       |  0           |
@@ -13,8 +13,8 @@
 |  7 | 75%        |             82 | 51     |   50     |   0.622    | 48.4      | 107.9    |      39.6     |                87.1     |           46.7     |  10.4     |            28.8     |       37.2     |      19.2     |          24.2     |           79.6     |        11.1    |       34.4     |   44.4     |  23.8     |    15       |  8.2      |  5       |    5.2      |         20.8     |               20.4     |  2.6         |
 |  8 | max        |             82 | 67     |   62     |   0.817    | 48.6      | 115.9    |      43.1     |                88.8     |           49.5     |  14.4     |            40.3     |       39.1     |      20.4     |          26.5     |           81.5     |        12.2    |       35.1     |   46.6     |  30.4     |    16.7     |  9.6      |  6.8     |    5.6      |         24.8     |               22.4     | 11.6         | 
 
-    ## Here are some plots to visualize relations between the important variables described in README. 
-    ### Histogram for Cumulative Points for all the teams during the season 
-     ![Alt text](figures/points-hist.png) 
-     ### Scatterplot for number of games won versus cumulative points for all teams during the season 
-     ![Alt text](figures/scatter.png)
+## Here are some plots to visualize relations between the important variables described in README. 
+### Histogram for Cumulative Points for all the teams during the season 
+![Alt text](figures/points-hist.png) 
+### Scatterplot for number of games won versus cumulative points for all teams during the season 
+![Alt text](figures/scatter.png)
