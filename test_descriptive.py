@@ -1,13 +1,7 @@
-from descriptive import gen_stats, build_histogram, build_scatterplot
+from descriptive import gen_stats
+import polars as pl
 
+nba = pl.read_csv("nba-teams-2017.csv")
 
 def test_describe():
-    gen_stats()
-
-
-def test_scatterplot():
-    build_scatterplot()
-
-
-def test_histogram():
-    build_histogram()
+    gen_stats(data=nba)

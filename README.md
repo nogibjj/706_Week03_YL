@@ -41,16 +41,32 @@ The project adapts from the project template from Week 01, and replace the `Pand
 
 ## Summary statistics
 
-See `report.md` for details. In particular,
+See `report.md` for details. 
 
-1. Summary statistics for all quantitative features
+1. Description of the dataset
+
+The dataset includes variables for the wins/losses/cumulative points/games statistics for all the NBA teams during regular season 2016-17. Since there are many columns in the dataset, I only describe the ones that are relevant to the visualizations, or worth discovering for creating other visualizations.
+
+* Team: name of the NBA team (in `str` format, dropped during calculating summary statistics).
+* Wins: number of wins for each team.
+* Losses: number of losses for each team.
+* Win_prop: percentages of games winning.
+* Points: cumulative points yielded.
+* Field_goals: number of field goals committed.
+* Points3: number of 3 point field goals committed.
+* Free_throws: number of free throw field goals committed.
+
+2. Summary of the quantitative variables in the dataset
 
 ![Alt text](figures/summary.png)
 
-2. Histogram for cummulative points won during the season
+
+## Visualizations
+
+1. Histogram for points for all teams
 
 ![Alt text](figures/points-hist.png)
 
-3. Scatterplot for cumulative points versus number of games won during the season
+2. Scatterplot for points vs number of wins
 
 ![Alt text](figures/scatter.png)

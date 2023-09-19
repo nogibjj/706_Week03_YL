@@ -14,8 +14,11 @@ fastapi
 uvicorn
 
 ## data science
+jupyter
 numpy
 pandas
 matplotlib
 seaborn
 polars
+pyarrow
+scikit-learn
