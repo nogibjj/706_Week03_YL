@@ -19,3 +19,5 @@ jobs:
       run: make test
     - name: Format code with Python black
       run: make format
+    - name: Add_commit_push
+      run: make add_commit_push
